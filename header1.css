@@ -1,0 +1,108 @@
+body{
+   font-family: helvetica, arial, sans-serif;
+   margin: 0;
+}
+
+.header{
+  height: 65px;
+  background-color:rgba(0, 0, 0,0.3);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.left-header{
+  width: 130px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.left-header a{
+  text-decoration: none;
+}
+
+.blue{
+  width: 10px;
+  height: 10px;
+  background-color: blue;
+  border-radius: 10px;
+  margin-left: 7px;
+  cursor: pointer;
+}
+
+.pink{
+  width: 10px;
+  height: 10px;
+  background-color:rgb(234, 45, 76);
+  border-radius: 10px;
+  margin-left: 2px;
+  cursor: pointer;
+}
+
+.logo{
+  font-size: 29px;
+  font-weight: bold;
+  color: white;
+  margin-left:8px;
+  cursor: pointer;
+}
+
+.middle-header{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.search-bar{
+  flex: 1;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 9px 0px 9px 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(243, 243, 243);
+  width: 180px;
+}
+
+.right-header{
+  width: 220px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.log-in{
+  background-color: transparent;
+  color: white;
+  border: none;
+  height: 30px;
+  font-size: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.sign-up{
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 8px 20px 8px 22px;
+  cursor: pointer;
+}
+
+.sign-up:hover{
+  color: rgb(139, 138, 138);
+}
+

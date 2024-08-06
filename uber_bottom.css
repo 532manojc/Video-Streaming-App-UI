@@ -1,0 +1,116 @@
+.bottom{
+  margin-top: 8px;
+  display: flex;
+  flex-direction: row;
+}
+
+.left{
+  width: 400px;
+  height: 380px;
+}
+
+.left:hover img{
+  cursor: pointer;
+}
+
+.top1{
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+.logo1{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.uber1{
+  font-weight: 500;
+  margin-right: 4px;
+}
+
+.middle1{
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  margin-top: 120px;
+}
+
+.apple{
+  width: 110px;
+}
+
+.playstore{
+  width: 110px;
+  margin-left: 10px;
+}
+
+.down1{
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-left: 30px;
+  width: 80px;
+  justify-content: space-between;
+}
+
+.facebook{
+  width: 15px;
+  border-radius: 2px;
+}
+
+.tweeter{
+  width: 15px;
+}
+
+.insta{
+  width: 15px;
+  border-radius: 4px;
+}
+
+.right{
+  width: 100%;
+  margin-top: 20px;
+}
+
+.u:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.top2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+  line-height: 8px;
+  margin-left: 300px;
+  margin-right: 50px;
+  margin-top: 10px;
+  padding-left: 5px;
+}
+
+.bottom2{
+  display: flex;
+  flex-direction: column;
+}
+
+.b1{
+  display: flex;
+  flex-direction: row;
+  font-size: 11px;
+  margin-top: 40px;
+  gap: 25px;
+  justify-content: right;
+  margin-right: 20px;
+}
+
+.b2{
+  display: flex;
+  flex-direction: row;
+  font-size: 11px;
+  gap: 25px;
+  justify-content: right;
+  margin-right: 20px;
+  margin-top: 0;
+}

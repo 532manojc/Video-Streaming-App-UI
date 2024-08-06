@@ -1,0 +1,88 @@
+.bottom{
+  display: flex;
+  height: 53px;
+}
+
+.bottom-left{
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  /* color: rgb(141, 132, 132); */
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 15px;
+  font-size: 14px;
+}
+
+.bottom-left div{
+   color: rgb(141, 132, 132); 
+}
+
+.bottom-left a{
+  text-decoration: none;
+}
+
+.b:hover{
+  color: white;
+  cursor: pointer;
+}
+
+.bottom-right{
+  width: 400px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.right-bottom-text{
+  color: rgb(141, 132, 132);
+  width: 160px;
+  padding-left: 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.right-bottom-text:hover{
+  color: white;
+}
+
+.bottom-right a{
+  text-decoration: none;
+}
+
+.icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 1;
+  padding-left: 15px;
+  padding-right: 25px;
+}
+
+.facebook{
+  width: 35px;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.tweeter{
+  width: 27px;
+  opacity: 0.6;
+  cursor: pointer;
+  margin-top: 4px;
+}
+
+.insta{
+  width: 27px;
+  opacity: 0.6;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.facebook:hover,.tweeter:hover,.insta:hover {
+  opacity: 1;
+}
+
